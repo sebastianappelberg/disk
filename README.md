@@ -7,7 +7,8 @@ Disk is a CLI tool that helps you identify files that you can remove.
 ## Motivation
 
 I have a relatively small SSD as my main hard drive and I have to free up space more often than I'd like.
-I haven't found any tools that are aggressive in suggesting files to remove, and I always have to fall back on manually looking for files.
+I haven't found any tools that are aggressive in suggesting files to remove, in particular when it comes to development
+clutter like `node_modules`, `mod`, `.build`, `dist` and so on. I always have to fall back on manually looking for files.
 Luckily it's a highly mechanical exercise, and therefore easy to automate.
 
 ## Usage
