@@ -68,7 +68,7 @@ Flags:
 
 Using Go:
 ```
-go install github.com/sebastianappelberg/disk
+go install github.com/sebastianappelberg/disk@latest
 ```
 
 ## Contributing
