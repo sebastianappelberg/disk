@@ -1,0 +1,73 @@
+{
+  "common": {
+    "description": "Common build artifacts, logs, and caches",
+    "folders": [
+      ".dist",
+      "dist",
+      "target",
+      "out",
+      "build",
+      "logs",
+      ".log",
+      "cache",
+      ".cache",
+      "packages",
+      ".packages"
+    ]
+  },
+  "golang": {
+    "description": "Go module cache",
+    "folders": [
+      "mod"
+    ]
+  },
+  "java": {
+    "description": "Gradle and Maven build artifacts",
+    "folders": [
+      ".gradle",
+      ".mvn"
+    ]
+  },
+  "javascript": {
+    "description": "JavaScript/Node.js project dependencies and caches",
+    "folders": [
+      "node_modules",
+      ".next",
+      ".nuxt",
+      ".vite",
+      ".angular",
+      ".parcel-cache"
+    ]
+  },
+  "julia": {
+    "description": "Julia package cache",
+    "folders": [
+      ".julia"
+    ]
+  },
+  "python": {
+    "description": "Python virtual environments, compiled files, and test caches",
+    "folders": [
+      "site-packages",
+      "pytest_cache",
+      "pycache",
+      ".pytest_cache",
+      ".tox",
+      ".venv"
+    ]
+  },
+  "ruby": {
+    "description": "Ruby package caches",
+    "folders": [
+      ".bundle",
+      "bundle"
+    ]
+  },
+  "swift": {
+    "description": "Xcode build directories",
+    "folders": [
+      "deriveddata",
+      "pods"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "common": {
+    "description": "Folders common across all OSs that should not be deleted",
+    "folders": [
+      ".git",
+      ".github",
+      ".idea",
+      ".vscode"
+    ]
+  },
+  "windows": {
+    "description": "Windows folders that should not be deleted",
+    "folders": [
+      "boot",
+      "recovery"
+    ]
+  },
+  "linux": {
+    "description": "linux folders that should not be deleted",
+    "folders": [
+      "etc",
+      "dev"
+    ]
+  }
+}
+

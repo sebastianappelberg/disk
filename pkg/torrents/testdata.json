@@ -1,0 +1,1066 @@
+[
+  {
+    "name": "The Walking Dead S05E03 720p HDTV x264-ASAP[ettv]",
+    "expected": {
+      "title": "The Walking Dead",
+      "season": 5,
+      "episode": 3,
+      "resolution": "720p",
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "ASAP[ettv]",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Hercules (2014) 1080p BrRip H264 - YIFY",
+    "expected": {
+      "title": "Hercules",
+      "year": 2014,
+      "resolution": "1080p",
+      "quality": "BrRip",
+      "codec": "H264",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Dawn.of.the.Planet.of.the.Apes.2014.HDRip.XViD-EVO",
+    "expected": {
+      "title": "Dawn of the Planet of the Apes",
+      "year": 2014,
+      "quality": "HDRip",
+      "codec": "XViD",
+      "group": "EVO",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "The Big Bang Theory S08E06 HDTV XviD-LOL [eztv]",
+    "expected": {
+      "title": "The Big Bang Theory",
+      "season": 8,
+      "episode": 6,
+      "quality": "HDTV",
+      "codec": "XviD",
+      "group": "LOL [eztv]",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "22 Jump Street (2014) 720p BrRip x264 - YIFY",
+    "expected": {
+      "title": "22 Jump Street",
+      "year": 2014,
+      "resolution": "720p",
+      "quality": "BrRip",
+      "codec": "x264",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Hercules.2014.EXTENDED.1080p.WEB-DL.DD5.1.H264-RARBG",
+    "expected": {
+      "title": "Hercules",
+      "year": 2014,
+      "resolution": "1080p",
+      "quality": "WEB-DL",
+      "codec": "H264",
+      "audio": "DD5.1",
+      "group": "RARBG",
+      "extended": true,
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Hercules.2014.Extended.Cut.HDRip.XViD-juggs[ETRG]",
+    "expected": {
+      "title": "Hercules",
+      "year": 2014,
+      "quality": "HDRip",
+      "codec": "XViD",
+      "group": "juggs[ETRG]",
+      "extended": true,
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Hercules (2014) WEBDL DVDRip XviD-MAX",
+    "expected": {
+      "title": "Hercules",
+      "year": 2014,
+      "quality": "WEBDL DVDRip",
+      "codec": "XviD",
+      "group": "MAX",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "WWE Hell in a Cell 2014 PPV WEB-DL x264-WD -={SPARROW}=-",
+    "expected": {
+      "title": "WWE Hell in a Cell",
+      "year": 2014,
+      "quality": "PPV WEB-DL",
+      "codec": "x264",
+      "group": "WD -={SPARROW}=-",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "UFC.179.PPV.HDTV.x264-Ebi[rartv]",
+    "expected": {
+      "title": "UFC 179",
+      "quality": "PPV.HDTV",
+      "codec": "x264",
+      "group": "Ebi[rartv]",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Marvels Agents of S H I E L D S02E05 HDTV x264-KILLERS [eztv]",
+    "expected": {
+      "title": "Marvels Agents of S H I E L D",
+      "season": 2,
+      "episode": 5,
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "KILLERS [eztv]",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "X-Men.Days.of.Future.Past.2014.1080p.WEB-DL.DD5.1.H264-RARBG",
+    "expected": {
+      "title": "X-Men Days of Future Past",
+      "year": 2014,
+      "resolution": "1080p",
+      "quality": "WEB-DL",
+      "codec": "H264",
+      "audio": "DD5.1",
+      "group": "RARBG",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Guardians Of The Galaxy 2014 R6 720p HDCAM x264-JYK",
+    "expected": {
+      "title": "Guardians Of The Galaxy",
+      "year": 2014,
+      "resolution": "720p",
+      "quality": "HDCAM",
+      "codec": "x264",
+      "group": "JYK",
+      "region": "6",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Marvel's.Agents.of.S.H.I.E.L.D.S02E01.Shadows.1080p.WEB-DL.DD5.1",
+    "expected": {
+      "title": "Marvel's Agents of S H I E L D",
+      "season": 2,
+      "episode": 1,
+      "resolution": "1080p",
+      "quality": "WEB-DL",
+      "audio": "DD5.1",
+      "group": "DL.DD5.1",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Marvels Agents of S.H.I.E.L.D. S02E06 HDTV x264-KILLERS[ettv]",
+    "expected": {
+      "title": "Marvels Agents of S.H.I.E.L.D",
+      "season": 2,
+      "episode": 6,
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "KILLERS[ettv]",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Guardians of the Galaxy (CamRip / 2014)",
+    "expected": {
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "quality": "CamRip",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "The.Walking.Dead.S05E03.1080p.WEB-DL.DD5.1.H.264-Cyphanix[rartv]",
+    "expected": {
+      "title": "The Walking Dead",
+      "season": 5,
+      "episode": 3,
+      "resolution": "1080p",
+      "quality": "WEB-DL",
+      "codec": "H.264",
+      "audio": "DD5.1",
+      "group": "Cyphanix[rartv]",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Brave.2012.R5.DVDRip.XViD.LiNE-UNiQUE",
+    "expected": {
+      "title": "Brave",
+      "year": 2012,
+      "quality": "DVDRip",
+      "codec": "XViD",
+      "audio": "LiNE",
+      "group": "UNiQUE",
+      "region": "5",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Lets.Be.Cops.2014.BRRip.XViD-juggs[ETRG]",
+    "expected": {
+      "title": "Lets Be Cops",
+      "year": 2014,
+      "quality": "BRRip",
+      "codec": "XViD",
+      "group": "juggs[ETRG]",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "These.Final.Hours.2013.WBBRip XViD",
+    "expected": {
+      "title": "These Final Hours",
+      "year": 2013,
+      "quality": "WBBRip",
+      "codec": "XViD",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Downton Abbey 5x06 HDTV x264-FoV [eztv]",
+    "expected": {
+      "title": "Downton Abbey",
+      "season": 5,
+      "episode": 6,
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "FoV [eztv]",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Annabelle.2014.HC.HDRip.XViD.AC3-juggs[ETRG]",
+    "expected": {
+      "title": "Annabelle",
+      "year": 2014,
+      "quality": "HDRip",
+      "codec": "XViD",
+      "audio": "AC3",
+      "group": "juggs[ETRG]",
+      "hardcoded": true,
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Lucy.2014.HC.HDRip.XViD-juggs[ETRG]",
+    "expected": {
+      "title": "Lucy",
+      "year": 2014,
+      "quality": "HDRip",
+      "codec": "XViD",
+      "group": "juggs[ETRG]",
+      "hardcoded": true,
+      "isMovie": true
+    }
+  },
+  {
+    "name": "The Flash 2014 S01E04 HDTV x264-FUM[ettv]",
+    "expected": {
+      "title": "The Flash",
+      "season": 1,
+      "episode": 4,
+      "year": 2014,
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "FUM[ettv]",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "South Park S18E05 HDTV x264-KILLERS [eztv]",
+    "expected": {
+      "title": "South Park",
+      "season": 18,
+      "episode": 5,
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "KILLERS [eztv]",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "The Flash 2014 S01E03 HDTV x264-LOL[ettv]",
+    "expected": {
+      "title": "The Flash",
+      "season": 1,
+      "episode": 3,
+      "year": 2014,
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "LOL[ettv]",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "The Flash 2014 S01E01 HDTV x264-LOL[ettv]",
+    "expected": {
+      "title": "The Flash",
+      "season": 1,
+      "episode": 1,
+      "year": 2014,
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "LOL[ettv]",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Lucy 2014 Dual-Audio WEBRip 1400Mb",
+    "expected": {
+      "title": "Lucy",
+      "year": 2014,
+      "quality": "WEBRip",
+      "audio": "Dual-Audio",
+      "group": "Audio WEBRip 1400Mb",
+      "size": "1400Mb",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles (HdRip / 2014)",
+    "expected": {
+      "title": "Teenage Mutant Ninja Turtles",
+      "year": 2014,
+      "quality": "HdRip",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles (unknown_release_type / 2014)",
+    "expected": {
+      "title": "Teenage Mutant Ninja Turtles",
+      "year": 2014,
+      "isMovie": true
+    }
+  },
+  {
+    "name": "The Simpsons S26E05 HDTV x264 PROPER-LOL [eztv]",
+    "expected": {
+      "title": "The Simpsons",
+      "season": 26,
+      "episode": 5,
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "LOL [eztv]",
+      "proper": true,
+      "isMovie": false
+    }
+  },
+  {
+    "name": "2047 - Sights of Death (2014) 720p BrRip x264 - YIFY",
+    "expected": {
+      "title": "2047 - Sights of Death",
+      "year": 2014,
+      "resolution": "720p",
+      "quality": "BrRip",
+      "codec": "x264",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Two and a Half Men S12E01 HDTV x264 REPACK-LOL [eztv]",
+    "expected": {
+      "title": "Two and a Half Men",
+      "season": 12,
+      "episode": 1,
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "LOL [eztv]",
+      "repack": true,
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Dinosaur 13 2014 WEBrip XviD AC3 MiLLENiUM",
+    "expected": {
+      "title": "Dinosaur 13",
+      "year": 2014,
+      "quality": "WEBrip",
+      "codec": "XviD",
+      "audio": "AC3",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Teenage.Mutant.Ninja.Turtles.2014.HDRip.XviD.MP3-RARBG",
+    "expected": {
+      "title": "Teenage Mutant Ninja Turtles",
+      "year": 2014,
+      "quality": "HDRip",
+      "codec": "XviD",
+      "audio": "MP3",
+      "group": "RARBG",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Dawn.Of.The.Planet.of.The.Apes.2014.1080p.WEB-DL.DD51.H264-RARBG",
+    "expected": {
+      "title": "Dawn Of The Planet of The Apes",
+      "year": 2014,
+      "resolution": "1080p",
+      "quality": "WEB-DL",
+      "codec": "H264",
+      "audio": "DD51",
+      "group": "RARBG",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Teenage.Mutant.Ninja.Turtles.2014.720p.HDRip.x264.AC3.5.1-RARBG",
+    "expected": {
+      "title": "Teenage Mutant Ninja Turtles",
+      "year": 2014,
+      "resolution": "720p",
+      "quality": "HDRip",
+      "codec": "x264",
+      "audio": "AC3.5.1",
+      "group": "RARBG",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Gotham.S01E05.Viper.WEB-DL.x264.AAC",
+    "expected": {
+      "title": "Gotham",
+      "season": 1,
+      "episode": 5,
+      "quality": "WEB-DL",
+      "codec": "x264",
+      "audio": "AAC",
+      "group": "DL.x264.AAC",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Into.The.Storm.2014.1080p.WEB-DL.AAC2.0.H264-RARBG",
+    "expected": {
+      "title": "Into The Storm",
+      "year": 2014,
+      "resolution": "1080p",
+      "quality": "WEB-DL",
+      "codec": "H264",
+      "audio": "AAC2.0",
+      "group": "RARBG",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Lucy 2014 Dual-Audio 720p WEBRip",
+    "expected": {
+      "title": "Lucy",
+      "year": 2014,
+      "resolution": "720p",
+      "quality": "WEBRip",
+      "audio": "Dual-Audio",
+      "group": "Audio 720p WEBRip",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Into The Storm 2014 1080p BRRip x264 DTS-JYK",
+    "expected": {
+      "title": "Into The Storm",
+      "year": 2014,
+      "resolution": "1080p",
+      "quality": "BRRip",
+      "codec": "x264",
+      "audio": "DTS",
+      "group": "JYK",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Sin.City.A.Dame.to.Kill.For.2014.1080p.BluRay.x264-SPARKS",
+    "expected": {
+      "title": "Sin City A Dame to Kill For",
+      "year": 2014,
+      "resolution": "1080p",
+      "quality": "BluRay",
+      "codec": "x264",
+      "group": "SPARKS",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "WWE Monday Night Raw 3rd Nov 2014 HDTV x264-Sir Paul",
+    "expected": {
+      "title": "WWE Monday Night Raw 3rd Nov",
+      "year": 2014,
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "Sir Paul",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Jack.And.The.Cuckoo-Clock.Heart.2013.BRRip XViD",
+    "expected": {
+      "title": "Jack And The Cuckoo",
+      "year": 2013,
+      "quality": "BRRip",
+      "codec": "XViD",
+      "group": "Clock.Heart.2013.BRRip XViD",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "WWE Hell in a Cell 2014 HDTV x264 SNHD",
+    "expected": {
+      "title": "WWE Hell in a Cell",
+      "year": 2014,
+      "quality": "HDTV",
+      "codec": "x264",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Dracula.Untold.2014.TS.XViD.AC3.MrSeeN-SiMPLE",
+    "expected": {
+      "title": "Dracula Untold",
+      "year": 2014,
+      "quality": "TS",
+      "codec": "XViD",
+      "audio": "AC3",
+      "group": "SiMPLE",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "The Missing 1x01 Pilot HDTV x264-FoV [eztv]",
+    "expected": {
+      "title": "The Missing",
+      "season": 1,
+      "episode": 1,
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "FoV [eztv]",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Doctor.Who.2005.8x11.Dark.Water.720p.HDTV.x264-FoV[rartv]",
+    "expected": {
+      "title": "Doctor Who",
+      "season": 8,
+      "episode": 11,
+      "year": 2005,
+      "resolution": "720p",
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "FoV[rartv]",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Gotham.S01E07.Penguins.Umbrella.WEB-DL.x264.AAC",
+    "expected": {
+      "title": "Gotham",
+      "season": 1,
+      "episode": 7,
+      "quality": "WEB-DL",
+      "codec": "x264",
+      "audio": "AAC",
+      "group": "DL.x264.AAC",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "One Shot [2014] DVDRip XViD-ViCKY",
+    "expected": {
+      "title": "One Shot",
+      "year": 2014,
+      "quality": "DVDRip",
+      "codec": "XViD",
+      "group": "ViCKY",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "The Shaukeens 2014 Hindi (1CD) DvDScr x264 AAC...Hon3y",
+    "expected": {
+      "title": "The Shaukeens",
+      "year": 2014,
+      "quality": "DvDScr",
+      "codec": "x264",
+      "audio": "AAC",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "The Shaukeens (2014) 1CD DvDScr Rip x264 [DDR]",
+    "expected": {
+      "title": "The Shaukeens",
+      "year": 2014,
+      "quality": "DvDScr",
+      "codec": "x264",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Annabelle.2014.1080p.PROPER.HC.WEBRip.x264.AAC.2.0-RARBG",
+    "expected": {
+      "title": "Annabelle",
+      "year": 2014,
+      "resolution": "1080p",
+      "quality": "WEBRip",
+      "codec": "x264",
+      "audio": "AAC.2.0",
+      "group": "RARBG",
+      "hardcoded": true,
+      "proper": true,
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Interstellar (2014) CAM ENG x264 AAC-CPG",
+    "expected": {
+      "title": "Interstellar",
+      "year": 2014,
+      "quality": "CAM",
+      "codec": "x264",
+      "audio": "AAC",
+      "group": "CPG",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Guardians of the Galaxy (2014) Dual Audio DVDRip.AVI",
+    "expected": {
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "quality": "DVDRip",
+      "audio": "Dual Audio",
+      "container": "AVI",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Eliza Graves (2014) Dual Audio WEB-DL 720p x264.MKV",
+    "expected": {
+      "title": "Eliza Graves",
+      "year": 2014,
+      "resolution": "720p",
+      "quality": "WEB-DL",
+      "codec": "x264",
+      "audio": "Dual Audio",
+      "group": "DL 720p x264",
+      "container": "MKV",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "WWE Monday Night Raw 2014 11 10 WS PDTV x264-RKOFAN1990 -={SPARR",
+    "expected": {
+      "title": "WWE Monday Night Raw",
+      "year": 2014,
+      "quality": "PDTV",
+      "codec": "x264",
+      "group": "RKOFAN1990 -={SPARR",
+      "widescreen": true,
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Sons.of.Anarchy.S01E03",
+    "expected": {
+      "title": "Sons of Anarchy",
+      "season": 1,
+      "episode": 3,
+      "isMovie": false
+    }
+  },
+  {
+    "name": "doctor_who_2005.8x12.death_in_heaven.720p_hdtv_x264-fov",
+    "expected": {
+      "title": "doctor who",
+      "season": 8,
+      "episode": 12,
+      "year": 2005,
+      "resolution": "720p",
+      "quality": "hdtv",
+      "codec": "x264",
+      "group": "fov",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "breaking.bad.s01e01.720p.bluray.x264-reward",
+    "expected": {
+      "title": "breaking bad",
+      "season": 1,
+      "episode": 1,
+      "resolution": "720p",
+      "quality": "bluray",
+      "codec": "x264",
+      "group": "reward",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Game of Thrones - 4x03 - Breaker of Chains",
+    "expected": {
+      "title": "Game of Thrones",
+      "season": 4,
+      "episode": 3,
+      "isMovie": false
+    }
+  },
+  {
+    "name": "[720pMkv.Com]_sons.of.anarchy.s05e10.480p.BluRay.x264-GAnGSteR",
+    "expected": {
+      "title": "sons of anarchy",
+      "season": 5,
+      "episode": 10,
+      "resolution": "480p",
+      "quality": "BluRay",
+      "codec": "x264",
+      "group": "GAnGSteR",
+      "website": "720pMkv.Com",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "[ www.Speed.cd ] -Sons.of.Anarchy.S07E07.720p.HDTV.X264-DIMENSION",
+    "expected": {
+      "title": "Sons of Anarchy",
+      "season": 7,
+      "episode": 7,
+      "resolution": "720p",
+      "quality": "HDTV",
+      "codec": "X264",
+      "group": "DIMENSION",
+      "website": "www.Speed.cd",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Community.s02e20.rus.eng.720p.Kybik.v.Kybe",
+    "expected": {
+      "title": "Community",
+      "season": 2,
+      "episode": 20,
+      "resolution": "720p",
+      "language": "rus.eng",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "The.Jungle.Book.2016.3D.1080p.BRRip.SBS.x264.AAC-ETRG",
+    "expected": {
+      "title": "The Jungle Book",
+      "year": 2016,
+      "resolution": "1080p",
+      "quality": "BRRip",
+      "codec": "x264",
+      "audio": "AAC",
+      "group": "ETRG",
+      "sbs": "SBS",
+      "3d": true,
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Ant-Man.2015.3D.1080p.BRRip.Half-SBS.x264.AAC-m2g",
+    "expected": {
+      "title": "Ant-Man",
+      "year": 2015,
+      "resolution": "1080p",
+      "quality": "BRRip",
+      "codec": "x264",
+      "audio": "AAC",
+      "group": "m2g",
+      "sbs": "Half-SBS",
+      "3d": true,
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Ice.Age.Collision.Course.2016.READNFO.720p.HDRIP.X264.AC3.TiTAN",
+    "expected": {
+      "title": "Ice Age Collision Course",
+      "year": 2016,
+      "resolution": "720p",
+      "quality": "HDRIP",
+      "codec": "X264",
+      "audio": "AC3",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Red.Sonja.Queen.Of.Plagues.2016.BDRip.x264-W4F[PRiME]",
+    "expected": {
+      "title": "Red Sonja Queen Of Plagues",
+      "year": 2016,
+      "quality": "BDRip",
+      "codec": "x264",
+      "group": "W4F[PRiME]",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "The Purge: Election Year (2016) HC - 720p HDRiP - 900MB - ShAaNi",
+    "expected": {
+      "title": "The Purge: Election Year",
+      "year": 2016,
+      "resolution": "720p",
+      "quality": "HDRiP",
+      "hardcoded": true,
+      "size": "900MB",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "War Dogs (2016) HDTS 600MB - NBY",
+    "expected": {
+      "title": "War Dogs",
+      "year": 2016,
+      "quality": "HDTS",
+      "size": "600MB",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "The Hateful Eight (2015) 720p BluRay - x265 HEVC - 999MB - ShAaN",
+    "expected": {
+      "title": "The Hateful Eight",
+      "year": 2015,
+      "resolution": "720p",
+      "quality": "BluRay",
+      "codec": "x265",
+      "size": "999MB",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "The.Boss.2016.UNRATED.720p.BRRip.x264.AAC-ETRG",
+    "expected": {
+      "title": "The Boss",
+      "year": 2016,
+      "resolution": "720p",
+      "quality": "BRRip",
+      "codec": "x264",
+      "audio": "AAC",
+      "group": "ETRG",
+      "unrated": true,
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Return.To.Snowy.River.1988.iNTERNAL.DVDRip.x264-W4F[PRiME]",
+    "expected": {
+      "title": "Return To Snowy River",
+      "year": 1988,
+      "quality": "DVDRip",
+      "codec": "x264",
+      "group": "W4F[PRiME]",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Akira (2016) - UpScaled - 720p - DesiSCR-Rip - Hindi - x264 - AC3 - 5.1 - Mafiaking - M2Tv",
+    "expected": {
+      "title": "Akira",
+      "year": 2016,
+      "resolution": "720p",
+      "codec": "x264",
+      "audio": "AC3",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Ben Hur 2016 TELESYNC x264 AC3 MAXPRO",
+    "expected": {
+      "title": "Ben Hur",
+      "year": 2016,
+      "quality": "TELESYNC",
+      "codec": "x264",
+      "audio": "AC3",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "The.Secret.Life.of.Pets.2016.HDRiP.AAC-LC.x264-LEGi0N",
+    "expected": {
+      "title": "The Secret Life of Pets",
+      "year": 2016,
+      "quality": "HDRiP",
+      "codec": "x264",
+      "audio": "AAC-LC",
+      "group": "LEGi0N",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "[HorribleSubs] Clockwork Planet - 10 [480p].mkv",
+    "expected": {
+      "title": "Clockwork Planet - 10",
+      "resolution": "480p",
+      "container": "mkv",
+      "website": "HorribleSubs",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "[HorribleSubs] Detective Conan - 862 [1080p].mkv",
+    "expected": {
+      "title": "Detective Conan - 862",
+      "resolution": "1080p",
+      "container": "mkv",
+      "website": "HorribleSubs",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "thomas.and.friends.s19e09_s20e14.convert.hdtv.x264-w4f[eztv].mkv",
+    "expected": {
+      "title": "thomas and friends",
+      "season": 19,
+      "episode": 9,
+      "quality": "hdtv",
+      "codec": "x264",
+      "group": "w4f[eztv]",
+      "container": "mkv",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Blade.Runner.2049.2017.1080p.WEB-DL.DD5.1.H264-FGT-[rarbg.to]",
+    "expected": {
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "resolution": "1080p",
+      "quality": "WEB-DL",
+      "codec": "H264",
+      "audio": "DD5.1",
+      "group": "[rarbg.to]",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "2012(2009).1080p.Dual Audio(Hindi+English) 5.1 Audios",
+    "expected": {
+      "title": "2012",
+      "year": 2009,
+      "resolution": "1080p",
+      "audio": "Dual Audio",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "2012 (2009) 1080p BrRip x264 - 1.7GB - YIFY",
+    "expected": {
+      "title": "2012",
+      "year": 2009,
+      "resolution": "1080p",
+      "quality": "BrRip",
+      "codec": "x264",
+      "size": "1.7GB",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "2012 2009 x264 720p Esub BluRay 6.0 Dual Audio English Hindi GOPISAHI",
+    "expected": {
+      "title": "2012",
+      "year": 2009,
+      "resolution": "720p",
+      "quality": "BluRay",
+      "codec": "x264",
+      "audio": "Dual Audio",
+      "isMovie": true
+    }
+  },
+  {
+    "name": "Pure.UK.S01E01.720p.HDTV.x264-KETTLE.mkv",
+    "expected": {
+      "title": "Pure",
+      "season": 1,
+      "episode": 1,
+      "resolution": "720p",
+      "container": "mkv",
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "KETTLE",
+      "country": "UK",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "This.is.Us.S01E01.720p.HDTV.x264-KILLERS",
+    "expected": {
+      "title": "This is Us",
+      "season": 1,
+      "episode": 1,
+      "resolution": "720p",
+      "quality": "HDTV",
+      "codec": "x264",
+      "group": "KILLERS",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "The.Catch.US.S01E03.720p.HDTV.X264-DIMENSION",
+    "expected": {
+      "title": "The Catch",
+      "season": 1,
+      "episode": 3,
+      "country": "US",
+      "resolution": "720p",
+      "quality": "HDTV",
+      "codec": "X264",
+      "group": "DIMENSION",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "[04x01] The Noose",
+    "expected": {
+      "title": "The Noose",
+      "season": 4,
+      "episode": 1,
+      "country": "",
+      "resolution": "",
+      "quality": "",
+      "codec": "",
+      "group": "",
+      "website": "",
+      "isMovie": false
+    }
+  },
+  {
+    "name": "Zodiac (2007)",
+    "expected": {
+      "title": "Zodiac",
+      "season": 0,
+      "episode": 0,
+      "country": "",
+      "resolution": "",
+      "quality": "",
+      "codec": "",
+      "group": "",
+      "website": "",
+      "isMovie": true,
+      "year": 2007
+    }
+  }
+]
