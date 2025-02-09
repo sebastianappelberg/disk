@@ -25,12 +25,12 @@ var trashDir = filepath.Join(os.Getenv("HOME"), ".Trash")
 
 const trashboxMetadataExt = ".trashbox.metadata.json"
 
-// Put moves the specified file or directory to the system's Trash directory.
+// Put moves the specified files or directories to the system's Trash directory.
 // This function generates a metadata file in the Trash for potential recovery.
 //
 // Parameters:
 //
-//	path (string): The path of the file or directory to be moved to Trash.
+//	filePaths (...string): The file paths of the files or directories to be moved to Trash.
 //
 // Returns:
 //
@@ -49,7 +49,17 @@ const trashboxMetadataExt = ".trashbox.metadata.json"
 //     original location of the deleted file. This enables the file to be put back
 //     using the Restore function.
 //   - The function is currently tailored for macOS systems.
-func Put(path string) error {
+func Put(filePaths ...string) error {
+	for _, filePath := range filePaths {
+		err := put(filePath)
+		if err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+func put(path string) error {
 	// Get the absolute file path of delete file
 	absPath, err := filepath.Abs(path)
 	if err != nil {
@@ -86,7 +96,6 @@ func Put(path string) error {
 		return err
 	}
 
-	// Process is success and return nill
 	return nil
 }
 

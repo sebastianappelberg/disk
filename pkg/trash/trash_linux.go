@@ -18,9 +18,9 @@ type metadata struct {
 	OriginalPath string `json:"original_path"`
 }
 
-// Put moves the specified file or directory to the Linux Trash.
+// Put moves the specified files or directories to the Linux Trash.
 //
-// This function takes the path of a file or directory as an argument,
+// This function takes the path multiple files or directories as an argument,
 // converts it to an absolute path, and then moves it to the user's
 // Trash directory located at ~/.local/share/Trash/files. If the
 // provided path does not exist, or if the Trash directory does not
@@ -31,7 +31,7 @@ type metadata struct {
 // Trash for potential recovery.
 //
 // Parameters:
-//   - path: The path of the file or directory to be moved to Trash.
+//   - filePaths: The path of the files or directories to be moved to Trash.
 //
 // Returns:
 //   - error: Returns nil on success. If an error occurs during the
@@ -46,7 +46,17 @@ type metadata struct {
 //	if err != nil {
 //	    log.Fatalf("Failed to move to Trash: %v", err)
 //	}
-func Put(path string) error {
+func Put(filePaths ...string) error {
+	for _, filePath := range filePaths {
+		err := put(filePath)
+		if err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+func put(path string) error {
 	absPath, err := filepath.Abs(path)
 	if err != nil {
 		return err
