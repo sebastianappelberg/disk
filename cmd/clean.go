@@ -13,7 +13,6 @@ import (
 	"github.com/spf13/cobra"
 	"log"
 	"math"
-	"path/filepath"
 	"runtime"
 	"slices"
 	"strings"
@@ -55,7 +54,6 @@ type model struct {
 	tableWidth     int
 	totalReclaimed int64
 	total          int64
-	dir            string
 	cleanableFiles []clean.CleanableFile
 	inProgressWg   *sync.WaitGroup
 }
@@ -82,9 +80,6 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			} else {
 				m.table.Focus()
 			}
-		case "up", "k", "down", "j":
-			// TODO: Use to make rows more compact.
-			m.dir = filepath.Dir(m.cleanableFiles[m.table.Cursor()].Path)
 		case "q", "ctrl+c":
 			return m, tea.Quit
 		case "e", "enter":
