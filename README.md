@@ -66,25 +66,6 @@ Flags:
 
 ## Installation
 
-Windows:
-```
-chocolatey install disk
-```
-or
-```
-scoop install disk
-```
-
-macOS:
-```
-brew install disk
-```
-
-Linux:
-```
-apt-get disk
-```
-
 Using Go:
 ```
 go install github.com/sebastianappelberg/disk
