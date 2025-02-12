@@ -10,6 +10,7 @@ require (
 	github.com/charmbracelet/lipgloss v1.0.0
 	github.com/go-ole/go-ole v1.3.0
 	github.com/ricochet2200/go-disk-usage/du v0.0.0-20210707232629-ac9918953285
+	github.com/sebastianappelberg/mathx v0.0.0-20250212144334-6613ff551bc8
 	github.com/spf13/cobra v1.8.1
 	golang.org/x/sys v0.30.0
 	golang.org/x/text v0.22.0

@@ -10,9 +10,9 @@ import (
 	"github.com/charmbracelet/lipgloss"
 	"github.com/sebastianappelberg/disk/pkg/clean"
 	"github.com/sebastianappelberg/disk/pkg/storage"
+	"github.com/sebastianappelberg/mathx"
 	"github.com/spf13/cobra"
 	"log"
-	"math"
 	"runtime"
 	"slices"
 	"strings"
@@ -206,7 +206,7 @@ Examples of files and folders it will suggest:
 `,
 		Run: func(cmd *cobra.Command, args []string) {
 			// To be nice on the user's CPU this command will only use 1/2 of the available CPUs.
-			runtime.GOMAXPROCS(int(math.Ceil(float64(runtime.NumCPU() / 2))))
+			runtime.GOMAXPROCS(mathx.DivCeil(runtime.NumCPU(), 2))
 
 			root := args[0]
 

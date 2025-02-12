@@ -3,7 +3,7 @@ package media
 import (
 	"fmt"
 	"github.com/sebastianappelberg/disk/pkg/torrents"
-	"math"
+	"github.com/sebastianappelberg/mathx"
 	"sort"
 	"strconv"
 	"sync"
@@ -30,11 +30,11 @@ func CheckAvailability(content []Media) []Media {
 				return
 			}
 			total := 0
-			maxTorrentsLength := 3.0
+			maxTorrentsLength := 3
 			if ct.Type == Series {
 				maxTorrentsLength = 10
 			}
-			torrentsLength := int(math.Min(maxTorrentsLength, float64(len(torrentsResult))))
+			torrentsLength := mathx.Min(maxTorrentsLength, len(torrentsResult))
 			for _, torrent := range torrentsResult[:torrentsLength] {
 				seeders, err := strconv.Atoi(torrent.Seeders)
 				if err == nil {
