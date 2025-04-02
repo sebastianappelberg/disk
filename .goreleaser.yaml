@@ -45,8 +45,14 @@ changelog:
       - "^docs:"
       - "^test:"
 
+scoops:
+  - name: disk
+    directory: bucket
+    repository:
+      owner: sebastianappelberg
+      name: scoop-bucket
+
 release:
   github:
       owner: sebastianappelberg
       name: disk
-
