@@ -58,6 +58,16 @@ scoops:
       owner: sebastianappelberg
       name: scoop-bucket
 
+brews:
+  - name: disk
+    description: Disk is a CLI tool that helps you identify files that you can remove.
+    homepage: https://github.com/sebastianappelberg/disk
+    license: MIT
+    directory: Formula
+    repository:
+      owner: sebastianappelberg
+      name: homebrew-tap
+
 release:
   github:
       owner: sebastianappelberg
