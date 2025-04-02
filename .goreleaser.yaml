@@ -19,6 +19,8 @@ before:
 builds:
   - env:
       - CGO_ENABLED=0
+    ldflags:
+      - "-X github.com/sebastianappelberg/disk/cmd.version={{ .Version }}"
     goos:
       - linux
       - windows
