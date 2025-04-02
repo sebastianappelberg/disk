@@ -65,6 +65,12 @@ Flags:
 
 ## Installation
 
+Windows:
+```
+scoop bucket add disk https://github.com/sebastianappelberg/scoop-bucket 
+scoop install disk
+```
+
 Using Go:
 ```
 go install github.com/sebastianappelberg/disk@latest
