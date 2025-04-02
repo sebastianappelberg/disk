@@ -3,7 +3,6 @@
 Disk is a CLI tool that helps you identify files that you can remove.
 
 
-
 ## Motivation
 
 I have a relatively small SSD as my main hard drive and I have to free up space more often than I'd like.
