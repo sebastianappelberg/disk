@@ -7,7 +7,6 @@ import (
 )
 
 const (
-	KiloByte = 1024
 	MegaByte = KiloByte * KiloByte
 	GigaByte = MegaByte * KiloByte
 
