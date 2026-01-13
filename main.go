@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/sebastianappelberg/disk/cmd"
 	"log"
+
+	"github.com/sebastianappelberg/disk/cmd"
 )
 
 func main() {

@@ -2,6 +2,8 @@ package cmd
 
 import (
 	"fmt"
+	"sort"
+
 	"github.com/charmbracelet/lipgloss/tree"
 	"github.com/sebastianappelberg/disk/pkg/storage"
 	"github.com/spf13/cobra"
@@ -9,6 +11,7 @@ import (
 
 func NewCmdTree() *cobra.Command {
 	var depth int
+	var sortBy string
 
 	var cmd = &cobra.Command{
 		Use:   "tree <path>",
@@ -17,20 +20,41 @@ func NewCmdTree() *cobra.Command {
 			root := args[0]
 			walker := storage.NewTreeWalker()
 			folder := walker.GetTree(root, depth)
-			t := buildTreeFromFolder(folder)
+			t := buildTreeFromFolder(folder, sortBy)
 			fmt.Println(t)
 		},
 	}
 
 	cmd.Flags().IntVarP(&depth, "depth", "d", 1, "Depth of the tree structure.")
+	cmd.Flags().StringVarP(&sortBy, "sort", "s", "name", "Sort by 'name' or 'size'.")
 
 	return cmd
 }
 
-func buildTreeFromFolder(folder storage.Tree) *tree.Tree {
+func sortChildren(children []storage.Tree, sortBy string) []storage.Tree {
+	sorted := make([]storage.Tree, len(children))
+	copy(sorted, children)
+
+	if sortBy == "size" {
+		sort.Slice(sorted, func(i, j int) bool {
+			return sorted[i].Size > sorted[j].Size // Sort descending by size
+		})
+	} else {
+		sort.Slice(sorted, func(i, j int) bool {
+			return sorted[i].Name < sorted[j].Name // Sort ascending by name
+		})
+	}
+
+	return sorted
+}
+
+func buildTreeFromFolder(folder storage.Tree, sortBy string) *tree.Tree {
 	t := tree.Root(fmt.Sprintf("%s: %s", folder.Name, storage.FormatSize(folder.Size)))
-	for _, subfolder := range folder.Children {
-		t.Child(buildTreeFromFolder(subfolder))
+
+	children := sortChildren(folder.Children, sortBy)
+
+	for _, subfolder := range children {
+		t.Child(buildTreeFromFolder(subfolder, sortBy))
 	}
 	return t
 }
