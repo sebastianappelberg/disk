@@ -89,6 +89,16 @@ The easiest way to contribute is to take a look at the [clutter_folders.json](/p
 for consideration when running `disk clean`. Other contributions are of course welcome. Please make sure your pull request
 contains a description containing the motivation for the changes.
 
+## Releasing
+
+Releases are managed with [GoReleaser](https://goreleaser.com). To create a new release, tag the commit and push the tag:
+```
+git tag v0.x.x
+git push origin v0.x.x
+```
+
+GoReleaser will then build binaries for Linux, Windows, and macOS and publish a GitHub release. It also updates the Scoop bucket and Homebrew tap automatically.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
