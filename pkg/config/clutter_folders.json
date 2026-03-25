@@ -11,14 +11,47 @@
       ".log",
       "cache",
       ".cache",
+      "coverage",
+      ".nyc_output",
+      ".sass-cache",
+      "tmp",
+      ".tmp",
       "packages",
       ".packages"
+    ]
+  },
+  "csharp": {
+    "description": ".NET build output directories",
+    "folders": [
+      "bin",
+      "obj"
+    ]
+  },
+  "dart": {
+    "description": "Dart and Flutter build caches",
+    "folders": [
+      ".dart_tool",
+      ".pub-cache"
+    ]
+  },
+  "elixir": {
+    "description": "Elixir build artifacts and dependencies",
+    "folders": [
+      "_build",
+      "deps"
     ]
   },
   "golang": {
     "description": "Go module cache",
     "folders": [
       "mod"
+    ]
+  },
+  "haskell": {
+    "description": "Haskell build artifacts",
+    "folders": [
+      ".stack-work",
+      "dist-newstyle"
     ]
   },
   "java": {
@@ -45,12 +78,18 @@
       ".julia"
     ]
   },
+  "php": {
+    "description": "PHP Composer dependencies",
+    "folders": [
+      "vendor"
+    ]
+  },
   "python": {
     "description": "Python virtual environments, compiled files, and test caches",
     "folders": [
       "site-packages",
       "pytest_cache",
-      "pycache",
+      "__pycache__",
       ".pytest_cache",
       ".tox",
       ".venv"
@@ -61,6 +100,12 @@
     "folders": [
       ".bundle",
       "bundle"
+    ]
+  },
+  "rust": {
+    "description": "Rust build cache",
+    "folders": [
+      ".cargo"
     ]
   },
   "swift": {
